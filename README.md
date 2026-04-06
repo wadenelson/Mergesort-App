@@ -2,6 +2,15 @@
 
 # Merge Sort
 
+
+
+
+
+https://github.com/user-attachments/assets/cff857ac-c1ee-4e6a-ae2a-db4f16d44cd6
+
+
+
+
 I chose to implement merge sort because it is a very efficient sort (O(nlogn)) and is not too complex. It is also complex enough that if one can understand merge sort, they can understand other simple sorts.
 
 The merge sort algorithm, given a list of numbers, performed as follows:
@@ -37,20 +46,22 @@ We need to return the list sorted from least to greatest. This will be achieved 
 - All possible cases were tested (and demonstrated to be handled) to avoid confusion for users:
 
     - Smallest allowed list length (5 elements)
-
-    ![Alt text](TestCase1.png)
+    <img width="1725" height="540" alt="TestCase1" src="https://github.com/user-attachments/assets/35c73bcb-678c-402f-95d0-34a3a48422e9" />
 
     - Largest allowed list length (25 elements):
 
-    ![Alt text](TestCases2.png)
+    <img width="1687" height="535" alt="TestCases2" src="https://github.com/user-attachments/assets/1a70076c-4500-420c-8106-924f999bc089" />
+
 
     - Example of animation:
 
-    ![Alt text](merge_sort_animation.gif)
+    ![merge_sort_animation](https://github.com/user-attachments/assets/206fc3c6-e11f-44a3-bb2e-22a43ecf6dbc)
+
 
 
 - Here is an example of an execution log that users find in usage of the app:
-![Alt text](ExecutionLog.png)
+
+<img width="1662" height="448" alt="ExecutionLog" src="https://github.com/user-attachments/assets/764d5d18-a85e-4a22-a711-dd15d016f94a" />
 
 ## How to run
 ### Clone the repository and install gradio using pip with:
